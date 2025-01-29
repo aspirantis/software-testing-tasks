@@ -22,6 +22,5 @@ public class MainClassTest {
         else {
             Assertions.fail("ERROR! The method checkClassNumber returns a different number, lower than 45");
         }
-
     }
 }
