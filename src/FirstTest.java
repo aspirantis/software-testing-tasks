@@ -25,7 +25,6 @@ public class FirstTest {
         capabilities.setCapability("app", "D:/aspirantis/JavaAppiumAutomation/apks/org.wikipedia.apk");
 
         driver = new AndroidDriver(new URL("http://127.0.0.1:4723"), capabilities);
-
     }
 
     @After
